@@ -12,15 +12,23 @@ h1.opening {
   text-transform: uppercase;
 }
 
+.opening-buttons {
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
 button {
-  width: 200px;
-  height: 50px;
   background-color: #443f3e;
   border: 6px solid #332c25;
   color: #cab4a1;
   font-size: 20px;
   font-family: 'VT323', monospace;
+  margin: 0px 20px;
   outline:0;
+  width: 220px;
+  height: 50px;
 }
 
 button:active {
