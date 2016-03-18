@@ -1,0 +1,29 @@
+body {
+  background-color: #6d6156;
+  background-image: url("img/bg.png");
+  color: white;
+  font-family: 'VT323', monospace;
+}
+
+h1.opening {
+  font-size: 8em;
+  letter-spacing: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: #443f3e;
+  border: 6px solid #332c25;
+  color: #cab4a1;
+  font-size: 20px;
+  font-family: 'VT323', monospace;
+  outline:0;
+}
+
+button:active {
+  background-color: #5e5554;
+  border: 6px solid #443f3e;
+}
