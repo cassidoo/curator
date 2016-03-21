@@ -4,6 +4,13 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Modal = require('react-modal');
 
+const customStyles = {
+  content : {
+    backgroundColor : '#cab4a1',
+    border : '6px solid #332c25'
+  }
+};
+
 class Opening extends React.Component {
   constructor() {
     super();
@@ -28,7 +35,8 @@ class Opening extends React.Component {
         <button onClick={this.openModal}>How to Play</button>
         <Modal
           isOpen={this.state.modalIsOpen}
-          onRequestClose={this.closeModal}>
+          onRequestClose={this.closeModal}
+          style={customStyles}>
           <h2>Hello</h2>
           <button onClick={this.closeModal}>close</button>
           <div>I am a modal</div>
